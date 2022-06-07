@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2? family= Atkinson+Hyperlegible & family= Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,20 1,300;1,400;1,500;1,600;1,700;1,800;1,900 & oila = Open + Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,3401;1,3801;1,3401;1,3801; Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900 & family= Yanone+Kaffeesatz: &03@000;0;wght@000; & 0005; displey=almashtirish');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+
+    .container {
+
+        .a {
+            font-size: 22px !important;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: skyblue !important;
+
+            &:hover {
+                color: rgb(79, 142, 167) !important;
+            }
+        }
+    }
+
+    ul {
+        li {
+            a {
+
+                font-size: 22px;
+                padding: 0 35px !important;
+                font-weight: 700;
+                color: gray !important;
+
+                &:hover {
+                    color: black !important;
+                }
+            }
+        }
+    }
+
+    .mybtn {
+        border: none;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-left: 50px;
+        padding: 10px 35px;
+        background-color: #42D897;
+        color: white;
+        border-radius: 8px;
+
+        &:hover {
+            background-color: rgb(185, 40, 113);
+        }
+
+        @media (max-width:992px) {
+            margin-right: 50px;
+        }
+    }
+}
+
+#sect1 {
+    .banner {
+        width: 100%;
+    }
+
+    .ws {
+        h3 {
+            padding-top: 0px;
+            color: blueviolet;
+        }
+
+        h1 {
+            font-size: 55px;
+            font-weight: 900 !important;
+            color: rgb(83, 18, 145);
+        }
+
+        p {
+            color: gray;
+            font-size: 22px;
+        }
+
+        .mybtn1 {
+            border: none;
+            background-color: rgb(153, 78, 223);
+            color: white;
+            padding: 10px 45px;
+            border-radius: 10px;
+
+            &:hover {
+                background-color: blueviolet;
+            }
+        }
+    }
+}
+
+#sect3 {
+    .chiziq-red {
+        background-color: red;
+        width: 100px;
+        height: 5px;
+        border: radius 3px;
+        margin: 50px auto;
+    }
+
+    .btn3 {
+        border: none;
+        background-color: gainsboro;
+        padding: 5px 8px;
+        border-radius: 6px;
+        color: blueviolet;
+        font-weight: 700;
+        font-size: 22px;
+
+        &:hover {
+            background-color: blueviolet;
+            color: white;
+        }
+    }
+
+    h3 {
+        color: rgb(20, 20, 116);
+        font-size: 52px;
+    }
+
+    p {
+        color: gray;
+    }
+
+    .box {
+        margin-bottom: 50px;
+        img {
+            padding: 15px;
+        }
+
+        h2 {
+            color: blueviolet;
+            font-weight: 600;
+        }
+
+        padding: 55px 5px;
+        box-shadow: rgba(0, 0, 0, 0.295) 0px 30px 90px;
+        border-radius: 20PX;
+    }
+
+}
+
+#sect4 {
+    .sel {
+        padding: 20px;
+
+        .selbration {
+            text-align: center;
+            width: 180px;
+            background-color: gainsboro;
+            color: blueviolet;
+
+            border-radius: 10px;
+
+            h3 {
+                padding: 5px;
+            }
+
+            &:hover {
+                background-color: blueviolet;
+                color: white;
+                cursor: pointer;
+            }
+        }
+
+        h2 {
+            color: rgb(90, 28, 148);
+            font-weight: 700;
+            font-size: 42px;
+        }
+
+        p {
+            color: gray;
+        }
+
+        .mybtn4 {
+            color: white;
+            border-radius: 5px;
+            padding: 10px 25px;
+            border: none;
+            background-color: blueviolet;
+
+            &:hover {
+                background-color: rgb(49, 6, 90);
+            }
+        }
+    }
+
+    img{
+        width: 100%;
+    }
+}
+
+#sect7 {
+    .mycont {
+        // background-color: #A891FF;
+        background-image: url(../img/img/bg-img/trial-bg.png);
+    }
+
+    .sel {
+        padding: 20px;
+
+        .selbration {
+            text-align: center;
+            width: 180px;
+            background-color: gainsboro;
+            color: blueviolet;
+
+            border-radius: 10px;
+
+            h3 {
+                padding: 5px;
+            }
+
+            &:hover {
+                background-color: blueviolet;
+                color: white;
+                cursor: pointer;
+            }
+        }
+
+        h2 {
+            color: white;
+            font-weight: 700;
+            font-size: 42px;
+        }
+
+        p {
+            color: white;
+        }
+
+        
+    }
+
+    .em{
+        border-radius: 30px;
+        border: 2px solid blueviolet;
+        padding-right:400px ;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        @media (max-width:992px) {
+            padding-right: 200px;
+        }
+    }
+
+    .mybtn7{
+        margin-left: 8px;
+        padding: 5px 35px;
+        border: none;
+        background-color: blueviolet;
+    }
+
+    .for-em{
+        position: relative;
+        i{
+            position: absolute;
+            top: 18px;
+            left: 10px;
+            color: blueviolet;
+        }
+        border-radius: 30px;
+        background-color: rgb(127, 90, 161);
+    }
+    img{
+        padding: 20px;
+        width: 100%;
+    }
+}
+
+#sect8{
+    img{
+        width: 100%;
+    }
+    .work{
+        background-color:gainsboro;
+        width: 200px;
+        margin: 30px auto;
+        padding: 5px 0;
+        color: blueviolet;
+    }
+
+    h1{
+        color: rgb(8, 8, 138);
+    }
+
+    p{
+        color: grey;
+        margin: 20px;
+    }
+
+    .add{
+        text-align: center;
+        padding: 50px;
+        box-shadow: rgba(0, 0, 0, 0.295) 0px 30px 90px;
+        margin-bottom: 20px;
+    }
+}
+
+#sect9{
+    .work{
+        background-color:gainsboro;
+        width: 200px;
+        margin: 30px auto;
+        padding: 5px 0;
+        color: blueviolet;
+    }
+
+    h1{
+        color: rgb(8, 8, 138);
+    }
+
+    p{
+        color: grey;
+        margin: 20px;
+    }
+    img{
+        width: 100%;
+    }
+}
+
+#sect10{
+    .work{
+        background-color:gainsboro;
+        width: 200px;
+        margin: 30px auto;
+        padding: 5px 0;
+        color: blueviolet;
+    }
+
+    h1{
+        color: rgb(8, 8, 138);
+    }
+
+    p{
+        color: grey;
+        margin: 20px;
+    }
+    img{
+        width: 100%;
+    }
+
+    .bgn{
+        padding: 50px 0;
+        .mybtn10{
+            border: none;
+            background-color: blueviolet;
+            color: white;
+            font-size: 22px;
+            padding: 5px 25px;
+            border-radius: 10px;
+            &:hover{
+                background-color: rgb(110, 70, 148);
+            }
+        }
+    }
+
+    .bgn2{
+        box-shadow: rgba(0, 0, 0, 0.295) 0px 30px 90px;
+        padding: 50px 0;
+    }
+}
+
+#sect11{
+    // background-image: url(../img/img/bg-img/footer-bg.png);
+    // background-position: center;
+    // background-repeat: no-repeat;
+
+    .work{
+        background-color:gainsboro;
+        width: 200px;
+        margin: 30px auto;
+        padding: 5px 0;
+        color: blueviolet;
+    }
+
+    h1{
+        color: rgb(8, 8, 138);
+    }
+
+    p{
+        color: grey;
+        margin: 20px;
+    }
+    img{
+        width: 100%;
+    }
+
+    .test{
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.295) 0px 30px 90px;
+        z-index: 100;
+    }
+
+    .user{
+        margin:  0 auto;
+        img{
+            border-radius: 50%;
+            @media (max-width:992px) {
+                width: 150px;
+                margin-right: 30px;
+            }
+        }
+        width: 200px ;
+    }
+
+    .sw{
+        margin: 100px 0;
+        padding: 25px 0;
+        background-color: rgba(46, 46, 179, 0.719);
+        color: white;
+        h1{
+            color: white;
+        }
+        .btnso{
+            border: none;
+            background-color: orangered;
+            color: white;
+            font-size: 22px;
+            padding: 5px 20px;
+            margin: 20px auto;
+            
+            border-radius: 5px;
+            &:hover{
+                background-color: rgb(165, 54, 14);
+            }
+        }
+    }
+
+}
+
+footer{
+    color: white;
+    .msg{
+        i{
+            color: white;
+            font-size: 32px;
+            padding: 5px;
+            margin: 15px;
+            background-color: #42D897;
+        }
+    }
+}
+
+.bg-footer{
+    background-image: url(../img/img/bg-img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -100;
+}
+
+
+
